@@ -1,4 +1,6 @@
-FROM python:3.8-slim
+FROM python:3.9-slim
+
+LABEL maintainer="Michael Schmidt <schmidt.software@gmail.com>"
 
 ENV APP_DIR=/usr/src/snappass
 
